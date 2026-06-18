@@ -1,0 +1,16 @@
+# Core dependencies for the FrozenLake Q-Learning / Double Q-Learning project
+gymnasium>=0.29
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+
+# Video output (demo.py --video, main.py video). imageio-ffmpeg bundles an
+# ffmpeg binary, so MP4 export works without a system-wide ffmpeg install.
+imageio>=2.31
+imageio-ffmpeg>=0.4
+Pillow>=9.0
+
+# pygame powers the original FrozenLake sprite artwork (the default video
+# renderer) and the demo's `--render human` window. Without it, video falls
+# back to the built-in simple grid renderer (`--graphics simple`).
+pygame>=2.1
