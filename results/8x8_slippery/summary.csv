@@ -1,0 +1,3 @@
+experiment,map,is_slippery,algorithm,algo_key,eval_episodes,avg_reward,success_rate,avg_length,avg_length_success,reward_std,train_time_s,convergence_episode,convergence_threshold,final_train_success_rate
+8x8_slippery,8x8,True,Q-Learning,q_learning,1000,0.516,0.516,76.897,62.736434108527135,0.499743934430424,76.74451849999969,17791,0.4,0.44
+8x8_slippery,8x8,True,Double Q-Learning,double_q_learning,1000,0.449,0.449,81.561,67.26280623608018,0.49739219937590495,97.8977617999999,22348,0.4,0.37

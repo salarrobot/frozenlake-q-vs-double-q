@@ -1,0 +1,16 @@
+{
+  "map_name": "4x4",
+  "is_slippery": true,
+  "max_steps": null,
+  "n_episodes": 20000,
+  "alpha": 0.1,
+  "gamma": 0.99,
+  "epsilon_start": 1.0,
+  "epsilon_min": 0.05,
+  "epsilon_decay": 0.9997503868024299,
+  "decay_fraction": 0.6,
+  "eval_episodes": 1000,
+  "success_window": 100,
+  "convergence_threshold": 0.4,
+  "seed": 42
+}

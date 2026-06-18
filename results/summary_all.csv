@@ -1,0 +1,9 @@
+experiment,map,is_slippery,algorithm,algo_key,eval_episodes,avg_reward,success_rate,avg_length,avg_length_success,reward_std,train_time_s,convergence_episode,convergence_threshold,final_train_success_rate
+4x4_deterministic,4x4,False,Q-Learning,q_learning,1000,1.0,1.0,6.0,6.0,0.0,1.8283278999997492,2878,0.9,1.0
+4x4_deterministic,4x4,False,Double Q-Learning,double_q_learning,1000,1.0,1.0,6.0,6.0,0.0,2.655793099999755,2658,0.9,0.99
+4x4_slippery,4x4,True,Q-Learning,q_learning,1000,0.731,0.731,44.091,37.890560875512996,0.44343996211437686,13.844796899999892,7485,0.4,0.55
+4x4_slippery,4x4,True,Double Q-Learning,double_q_learning,1000,0.733,0.733,41.065,36.886766712141885,0.44239235978936164,15.135018099999797,7534,0.4,0.48
+8x8_deterministic,8x8,False,Q-Learning,q_learning,1000,1.0,1.0,14.0,14.0,0.0,22.688138600000457,14580,0.9,0.99
+8x8_deterministic,8x8,False,Double Q-Learning,double_q_learning,1000,1.0,1.0,14.0,14.0,0.0,32.142309799999566,15926,0.9,0.98
+8x8_slippery,8x8,True,Q-Learning,q_learning,1000,0.516,0.516,76.897,62.736434108527135,0.499743934430424,76.74451849999969,17791,0.4,0.44
+8x8_slippery,8x8,True,Double Q-Learning,double_q_learning,1000,0.449,0.449,81.561,67.26280623608018,0.49739219937590495,97.8977617999999,22348,0.4,0.37

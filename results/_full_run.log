@@ -1,0 +1,222 @@
+
+======================================================================
+EXPERIMENT: 4x4_deterministic  (episodes=10000, alpha=0.8, gamma=0.95)
+======================================================================
+
+--- Training Q-Learning ---
+  [Q-Learning       ] ep   1000/10000  eps=0.464  success(last 100)=41.0%
+  [Q-Learning       ] ep   2000/10000  eps=0.215  success(last 100)=74.0%
+  [Q-Learning       ] ep   3000/10000  eps=0.100  success(last 100)=91.0%
+  [Q-Learning       ] ep   4000/10000  eps=0.046  success(last 100)=96.0%
+  [Q-Learning       ] ep   5000/10000  eps=0.022  success(last 100)=97.0%
+  [Q-Learning       ] ep   6000/10000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning       ] ep   7000/10000  eps=0.010  success(last 100)=100.0%
+  [Q-Learning       ] ep   8000/10000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning       ] ep   9000/10000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning       ] ep  10000/10000  eps=0.010  success(last 100)=100.0%
+  [Q-Learning] trained 10000 episodes in 1.83s
+--- Evaluating Q-Learning over 1000 greedy episodes ---
+  Q-Learning:
+      success rate      : 100.0%
+      avg reward        : 1.000
+      avg episode length: 6.00
+      convergence       : 2878 episodes
+      training time     : 1.83s
+
+--- Training Double Q-Learning ---
+  [Double Q-Learning] ep   1000/10000  eps=0.464  success(last 100)=38.0%
+  [Double Q-Learning] ep   2000/10000  eps=0.215  success(last 100)=77.0%
+  [Double Q-Learning] ep   3000/10000  eps=0.100  success(last 100)=92.0%
+  [Double Q-Learning] ep   4000/10000  eps=0.046  success(last 100)=95.0%
+  [Double Q-Learning] ep   5000/10000  eps=0.022  success(last 100)=97.0%
+  [Double Q-Learning] ep   6000/10000  eps=0.010  success(last 100)=99.0%
+  [Double Q-Learning] ep   7000/10000  eps=0.010  success(last 100)=99.0%
+  [Double Q-Learning] ep   8000/10000  eps=0.010  success(last 100)=99.0%
+  [Double Q-Learning] ep   9000/10000  eps=0.010  success(last 100)=97.0%
+  [Double Q-Learning] ep  10000/10000  eps=0.010  success(last 100)=99.0%
+  [Double Q-Learning] trained 10000 episodes in 2.66s
+--- Evaluating Double Q-Learning over 1000 greedy episodes ---
+  Double Q-Learning:
+      success rate      : 100.0%
+      avg reward        : 1.000
+      avg episode length: 6.00
+      convergence       : 2658 episodes
+      training time     : 2.66s
+
+--- Generating plots ---
+  saved plots\4x4_deterministic\reward_vs_episodes.png
+  saved plots\4x4_deterministic\success_rate_vs_episodes.png
+  saved plots\4x4_deterministic\moving_average_reward.png
+  saved plots\4x4_deterministic\epsilon_decay.png
+  saved plots\4x4_deterministic\comparison.png
+  saved plots\4x4_deterministic\convergence_comparison.png
+
+======================================================================
+EXPERIMENT: 4x4_slippery  (episodes=20000, alpha=0.1, gamma=0.99)
+======================================================================
+
+--- Training Q-Learning ---
+  [Q-Learning       ] ep   2000/20000  eps=0.607  success(last 100)= 3.0%
+  [Q-Learning       ] ep   4000/20000  eps=0.368  success(last 100)=11.0%
+  [Q-Learning       ] ep   6000/20000  eps=0.224  success(last 100)=20.0%
+  [Q-Learning       ] ep   8000/20000  eps=0.136  success(last 100)=34.0%
+  [Q-Learning       ] ep  10000/20000  eps=0.082  success(last 100)=41.0%
+  [Q-Learning       ] ep  12000/20000  eps=0.050  success(last 100)=57.0%
+  [Q-Learning       ] ep  14000/20000  eps=0.050  success(last 100)=45.0%
+  [Q-Learning       ] ep  16000/20000  eps=0.050  success(last 100)=52.0%
+  [Q-Learning       ] ep  18000/20000  eps=0.050  success(last 100)=55.0%
+  [Q-Learning       ] ep  20000/20000  eps=0.050  success(last 100)=55.0%
+  [Q-Learning] trained 20000 episodes in 13.84s
+--- Evaluating Q-Learning over 1000 greedy episodes ---
+  Q-Learning:
+      success rate      : 73.1%
+      avg reward        : 0.731
+      avg episode length: 44.09
+      convergence       : 7485 episodes
+      training time     : 13.84s
+
+--- Training Double Q-Learning ---
+  [Double Q-Learning] ep   2000/20000  eps=0.607  success(last 100)= 3.0%
+  [Double Q-Learning] ep   4000/20000  eps=0.368  success(last 100)= 6.0%
+  [Double Q-Learning] ep   6000/20000  eps=0.224  success(last 100)=20.0%
+  [Double Q-Learning] ep   8000/20000  eps=0.136  success(last 100)=26.0%
+  [Double Q-Learning] ep  10000/20000  eps=0.082  success(last 100)=30.0%
+  [Double Q-Learning] ep  12000/20000  eps=0.050  success(last 100)=62.0%
+  [Double Q-Learning] ep  14000/20000  eps=0.050  success(last 100)=52.0%
+  [Double Q-Learning] ep  16000/20000  eps=0.050  success(last 100)=54.0%
+  [Double Q-Learning] ep  18000/20000  eps=0.050  success(last 100)=49.0%
+  [Double Q-Learning] ep  20000/20000  eps=0.050  success(last 100)=48.0%
+  [Double Q-Learning] trained 20000 episodes in 15.14s
+--- Evaluating Double Q-Learning over 1000 greedy episodes ---
+  Double Q-Learning:
+      success rate      : 73.3%
+      avg reward        : 0.733
+      avg episode length: 41.06
+      convergence       : 7534 episodes
+      training time     : 15.14s
+
+--- Generating plots ---
+  saved plots\4x4_slippery\reward_vs_episodes.png
+  saved plots\4x4_slippery\success_rate_vs_episodes.png
+  saved plots\4x4_slippery\moving_average_reward.png
+  saved plots\4x4_slippery\epsilon_decay.png
+  saved plots\4x4_slippery\comparison.png
+  saved plots\4x4_slippery\convergence_comparison.png
+
+======================================================================
+EXPERIMENT: 8x8_deterministic  (episodes=50000, alpha=0.8, gamma=0.99)
+======================================================================
+
+--- Training Q-Learning ---
+  [Q-Learning       ] ep   5000/50000  eps=0.464  success(last 100)=19.0%
+  [Q-Learning       ] ep  10000/50000  eps=0.215  success(last 100)=64.0%
+  [Q-Learning       ] ep  15000/50000  eps=0.100  success(last 100)=80.0%
+  [Q-Learning       ] ep  20000/50000  eps=0.046  success(last 100)=93.0%
+  [Q-Learning       ] ep  25000/50000  eps=0.022  success(last 100)=99.0%
+  [Q-Learning       ] ep  30000/50000  eps=0.010  success(last 100)=96.0%
+  [Q-Learning       ] ep  35000/50000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning       ] ep  40000/50000  eps=0.010  success(last 100)=100.0%
+  [Q-Learning       ] ep  45000/50000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning       ] ep  50000/50000  eps=0.010  success(last 100)=99.0%
+  [Q-Learning] trained 50000 episodes in 22.69s
+--- Evaluating Q-Learning over 1000 greedy episodes ---
+  Q-Learning:
+      success rate      : 100.0%
+      avg reward        : 1.000
+      avg episode length: 14.00
+      convergence       : 14580 episodes
+      training time     : 22.69s
+
+--- Training Double Q-Learning ---
+  [Double Q-Learning] ep   5000/50000  eps=0.464  success(last 100)=37.0%
+  [Double Q-Learning] ep  10000/50000  eps=0.215  success(last 100)=60.0%
+  [Double Q-Learning] ep  15000/50000  eps=0.100  success(last 100)=88.0%
+  [Double Q-Learning] ep  20000/50000  eps=0.046  success(last 100)=89.0%
+  [Double Q-Learning] ep  25000/50000  eps=0.022  success(last 100)=96.0%
+  [Double Q-Learning] ep  30000/50000  eps=0.010  success(last 100)=97.0%
+  [Double Q-Learning] ep  35000/50000  eps=0.010  success(last 100)=98.0%
+  [Double Q-Learning] ep  40000/50000  eps=0.010  success(last 100)=98.0%
+  [Double Q-Learning] ep  45000/50000  eps=0.010  success(last 100)=98.0%
+  [Double Q-Learning] ep  50000/50000  eps=0.010  success(last 100)=98.0%
+  [Double Q-Learning] trained 50000 episodes in 32.14s
+--- Evaluating Double Q-Learning over 1000 greedy episodes ---
+  Double Q-Learning:
+      success rate      : 100.0%
+      avg reward        : 1.000
+      avg episode length: 14.00
+      convergence       : 15926 episodes
+      training time     : 32.14s
+
+--- Generating plots ---
+  saved plots\8x8_deterministic\reward_vs_episodes.png
+  saved plots\8x8_deterministic\success_rate_vs_episodes.png
+  saved plots\8x8_deterministic\moving_average_reward.png
+  saved plots\8x8_deterministic\epsilon_decay.png
+  saved plots\8x8_deterministic\comparison.png
+  saved plots\8x8_deterministic\convergence_comparison.png
+
+======================================================================
+EXPERIMENT: 8x8_slippery  (episodes=50000, alpha=0.1, gamma=0.99)
+======================================================================
+
+--- Training Q-Learning ---
+  [Q-Learning       ] ep   5000/50000  eps=0.607  success(last 100)= 0.0%
+  [Q-Learning       ] ep  10000/50000  eps=0.368  success(last 100)=12.0%
+  [Q-Learning       ] ep  15000/50000  eps=0.224  success(last 100)=22.0%
+  [Q-Learning       ] ep  20000/50000  eps=0.136  success(last 100)=33.0%
+  [Q-Learning       ] ep  25000/50000  eps=0.082  success(last 100)=43.0%
+  [Q-Learning       ] ep  30000/50000  eps=0.050  success(last 100)=46.0%
+  [Q-Learning       ] ep  35000/50000  eps=0.050  success(last 100)=56.0%
+  [Q-Learning       ] ep  40000/50000  eps=0.050  success(last 100)=33.0%
+  [Q-Learning       ] ep  45000/50000  eps=0.050  success(last 100)=46.0%
+  [Q-Learning       ] ep  50000/50000  eps=0.050  success(last 100)=44.0%
+  [Q-Learning] trained 50000 episodes in 1m 16.7s
+--- Evaluating Q-Learning over 1000 greedy episodes ---
+  Q-Learning:
+      success rate      : 51.6%
+      avg reward        : 0.516
+      avg episode length: 76.90
+      convergence       : 17791 episodes
+      training time     : 1m 16.7s
+
+--- Training Double Q-Learning ---
+  [Double Q-Learning] ep   5000/50000  eps=0.607  success(last 100)= 2.0%
+  [Double Q-Learning] ep  10000/50000  eps=0.368  success(last 100)= 8.0%
+  [Double Q-Learning] ep  15000/50000  eps=0.224  success(last 100)=25.0%
+  [Double Q-Learning] ep  20000/50000  eps=0.136  success(last 100)= 8.0%
+  [Double Q-Learning] ep  25000/50000  eps=0.082  success(last 100)=38.0%
+  [Double Q-Learning] ep  30000/50000  eps=0.050  success(last 100)= 5.0%
+  [Double Q-Learning] ep  35000/50000  eps=0.050  success(last 100)=11.0%
+  [Double Q-Learning] ep  40000/50000  eps=0.050  success(last 100)=38.0%
+  [Double Q-Learning] ep  45000/50000  eps=0.050  success(last 100)=33.0%
+  [Double Q-Learning] ep  50000/50000  eps=0.050  success(last 100)=37.0%
+  [Double Q-Learning] trained 50000 episodes in 1m 37.9s
+--- Evaluating Double Q-Learning over 1000 greedy episodes ---
+  Double Q-Learning:
+      success rate      : 44.9%
+      avg reward        : 0.449
+      avg episode length: 81.56
+      convergence       : 22348 episodes
+      training time     : 1m 37.9s
+
+--- Generating plots ---
+  saved plots\8x8_slippery\reward_vs_episodes.png
+  saved plots\8x8_slippery\success_rate_vs_episodes.png
+  saved plots\8x8_slippery\moving_average_reward.png
+  saved plots\8x8_slippery\epsilon_decay.png
+  saved plots\8x8_slippery\comparison.png
+  saved plots\8x8_slippery\convergence_comparison.png
+
+All experiments complete. Combined summary -> results\summary_all.csv
+
+Combined results:
+
+       experiment         algorithm  success_rate  avg_reward  avg_length  convergence_episode  train_time_s
+4x4_deterministic        Q-Learning         100.0       1.000         6.0                 2878           1.8
+4x4_deterministic Double Q-Learning         100.0       1.000         6.0                 2658           2.7
+     4x4_slippery        Q-Learning          73.1       0.731        44.1                 7485          13.8
+     4x4_slippery Double Q-Learning          73.3       0.733        41.1                 7534          15.1
+8x8_deterministic        Q-Learning         100.0       1.000        14.0                14580          22.7
+8x8_deterministic Double Q-Learning         100.0       1.000        14.0                15926          32.1
+     8x8_slippery        Q-Learning          51.6       0.516        76.9                17791          76.7
+     8x8_slippery Double Q-Learning          44.9       0.449        81.6                22348          97.9
