@@ -87,9 +87,3 @@ The animations below are GIF previews; the full-length MP4s are in
 
 Full MP4 recordings (3 episodes each, both algorithms):
 
-| Experiment | Q-Learning | Double Q-Learning |
-|---|---|---|
-| 4×4 deterministic | [mp4](videos/4x4_deterministic_q_learning.mp4) | [mp4](videos/4x4_deterministic_double_q_learning.mp4) |
-| 4×4 slippery | [mp4](videos/4x4_slippery_q_learning.mp4) | [mp4](videos/4x4_slippery_double_q_learning.mp4) |
-| 8×8 deterministic | [mp4](videos/8x8_deterministic_q_learning.mp4) | [mp4](videos/8x8_deterministic_double_q_learning.mp4) |
-| 8×8 slippery | [mp4](videos/8x8_slippery_q_learning.mp4) | [mp4](videos/8x8_slippery_double_q_learning.mp4) |
