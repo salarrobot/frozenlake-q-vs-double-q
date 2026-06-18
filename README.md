@@ -85,5 +85,4 @@ The animations below are GIF previews; the full-length MP4s are in
 | **8×8 deterministic** | **8×8 slippery** |
 | ![8x8 deterministic demo](videos/preview_8x8_deterministic.gif) | ![8x8 slippery demo](videos/preview_8x8_slippery.gif) |
 
-Full MP4 recordings (3 episodes each, both algorithms):
 
